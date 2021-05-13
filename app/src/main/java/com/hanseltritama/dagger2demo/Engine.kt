@@ -1,6 +1,6 @@
 package com.hanseltritama.dagger2demo
 
-import javax.inject.Inject
+interface Engine {
 
-class Engine @Inject constructor() {
+    fun start()
 }
